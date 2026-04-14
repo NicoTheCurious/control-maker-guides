@@ -2,9 +2,14 @@
 ---
 @import "{{ site.theme }}";
 
+body {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
 .wrapper {
   display: block;
-  max-width: 64em;
+  max-width: 1012px;
   margin: 0 auto;
   padding: 2em 1em;
 }
